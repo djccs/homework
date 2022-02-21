@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+screenshots/
+videos/
+cypress/fixtures/response/
+cypress/config/secrets.json
+cypress/config/
+
+# System files:
+*.lock
+.DS_STORE
+.vscode/*
+.idea/*
+.cypress/idea/*
+.prettierignore
+.env.*
+/package-lock.json
+/yarn-error.log
