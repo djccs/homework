@@ -1,20 +1,29 @@
 
 Exercise: 
+
 We have just finished developing a Service that acts as a Single Sign On for the ecosystem implementing the OpenID Connect standard. It will enable users to do: 
+
 ● Login in all the different products using the same credentials 
+
 ● Create an account if it does not exist 
+
 ● Get identity tokens (id_token) that other products within the ecosystem can use to validate the user has been authenticated. 
 
 
 The public endpoints that need to be tested are: 
+
 ● GET /authorize 
+
 ● POST /token 
+
 ● POST /logout 
 
-
 The private endpoints that need to be tested are: 
+
 ● POST /login 
+
 ● POST /signup 
+
 ● POST /password/reset 
 
 What we ask you to solve: 
@@ -90,5 +99,6 @@ $ yarn cypress open
 
 
 Postman Collection link:
+
 https://go.postman.co/workspace/TestAuth~1e3ad00d-58c1-4f93-ad3e-9d1dc3daeb8d/collection/10306762-2971d1eb-83d1-4686-b839-aa952f628365
 
