@@ -1,10 +1,9 @@
 
-Mighty Block - Software Automation Engineer 
 Exercise: 
-We have just finished developing a Service that acts as a Single Sign On for the Forte ecosystem implementing the OpenID Connect standard. It will enable users to do: 
+We have just finished developing a Service that acts as a Single Sign On for the ecosystem implementing the OpenID Connect standard. It will enable users to do: 
 ● Login in all the different products using the same credentials 
 ● Create an account if it does not exist 
-● Get identity tokens (id_token) that other products within the Forte ecosystem can use to validate the user has been authenticated. 
+● Get identity tokens (id_token) that other products within the ecosystem can use to validate the user has been authenticated. 
 
 
 The public endpoints that need to be tested are: 
@@ -22,7 +21,6 @@ What we ask you to solve:
 1. Define test cases that are critical for this product. Keep in mind the OIDC standard. 
 2. Research to find the best tool to automate testing for this Product 
 3. Write 1 automated test using the tool you picked
-
 
 
 Solution: 
@@ -65,9 +63,7 @@ PUBLIC:
 ● GET /authorize 
 - Verifies authorized user
 - Verifies unauthorized users
-
-Verify logged in user cannot access resources out of the scope (premissions to resources or other apps)
-
+- Verifies logged in user cannot access resources out of the scope (premissions to resources or other apps)
 
 
 ● POST /token 
