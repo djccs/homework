@@ -43,6 +43,7 @@ Asume all test cases have assertions for Response Codes, Response Message and Re
 1. Test Cases: 
 
 PRIVATE:
+
 ● POST /login 
 - Verify user can login with valid credentials
 - Verify user cannot login with invalid credetials
@@ -69,6 +70,7 @@ PRIVATE:
 
 
 PUBLIC:
+
 ● GET /authorize 
 - Verifies authorized user
 - Verifies unauthorized users
